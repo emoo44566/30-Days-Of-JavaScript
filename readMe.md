@@ -271,15 +271,33 @@ As you can see from the snippet code above, _console.log()_ can take multiple ar
 
 Congratulations! You wrote your first JavaScript code using _console.log()_.
 
+#### دستور console.log با چند آرگومان
+تابع console.log() می‌تواند چند پارامتر دریافت کند که با کاما از یکدیگر جدا شده‌اند به این شیوه: **console.log(param1, param2, param3)**
+
+```js
+console.log('Hello', 'World', '!')
+console.log('HAPPY', 'NEW', 'YEAR', 2020)
+console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
+```
+
+همانطور که مشاهده می‌کنید تابع console.log() می‌تواند چند آرگومان داشته باشد.
+تبریک شما اولین کد جاوااسکریپت خود را با استفاده از console.log() نوشتید.
+
+
 ##### Comments
 
 We add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code.In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this /\* \*/ is also a comment.
+
+#### کامنت
+ما به کد خود کامنت را اضافه می‌کنیم. کامنت به معنی توضیح است. کامنت‌ها برای خواناتر کردن کد بسیار اهمیت دارند. جاوااسکریپت قسمت‌های مربوط به کامنت را اجرا نمی‌کند. در جاوااسکریپت، هر خطی که با // شروع شود و هر چیزی که در میان دو علامت /\* و \*/ قرار گیرد، کامنت محسوب می‌شود.
 
 **Example: Single Line Comment**
 
 // This is the first comment  
  // This is the second comment  
  // I am a single line comment
+
+مثال: کامنت تک خطی
 
 **Example: Multiline Comment**
 
@@ -288,12 +306,17 @@ This is a multiline comment
  Multiline comments can take multiple lines  
  JavaScript is the language of the web  
  */
+ 
+ مثال: کامنت چند خطی
 
 ##### Syntax
 
 Programming languages are similar to human languages. English or many other language uses words, phrases, sentences,compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language.Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
 
 ![Error](images/raising_syntax_error.png)
+
+#### دستور زبان
+زبان‌های برنامه‌نویسی شبیه زبان‌های مرسوم در بین انسان‌ها هستند. انگلیسی یا فارسی یا زبان‌های دیگر از کلمات، عبارات، جملات و دیگر ساختارهای زبانی برای انتقال یک پیام معنی‌دار استفاده می‌کنند. معنی فارسی دستور زبان این است: ترتیب کلمات و عبارات برای ایجاد جملات درست در زبان. تعریف تکنیکی مفهوم دستور زبان یا سینتکس، ساختار عبارات در یک زبان کامپیوتری است. 
 
 I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
 
@@ -310,6 +333,8 @@ console.log('Hello, World!')
 console.log("Hello, World!")
 console.log(`Hello, World!`)
 ```
+
+  
 
 #### Arithmetics
 
