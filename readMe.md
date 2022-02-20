@@ -110,20 +110,13 @@
 
 **Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. In this challenge you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
-**تبریک** بابت تصمیم برای شرکت در چالش 30 روز با جاوااسکریپت. در این چالش شما خواهید آموخت هر آن چیزی که به عنوان یک برنامه‌نویس جاوااسکریپت به آن نیاز دارید و البته به صورت عمومی‌تر مفاهیم برنامه‌نویسی را خواهید آموخت. در پایان این چالش شما یه گواهی اتمام چالش دریافت خواهید کرد. در مواردی که به کمک نیاز دارید یا می‌خواهید به دیگران کمک کنید، می‌توانید به گروه تلگرام ملحق شوید.
-
 **A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
-
-این چالش یک راهنمای کامل هم برای توسعه‌دهندگان تازه‌کار است و هم برای باسابقه‌ها. به جاوااسکریپت خوش آمدید. جاوااسکریپت زبان وب است. من از استفاده و تدریس آن لذت می‌برم و امیدوارم شما نیز این گونه باشید.
 
 In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
 JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **_machine learning_** and **_AI_**.
 **_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
 programming language for six consecutive years and is the most used programming language on
 Github.
-
-در این چالش گام‌به‌گام جاوااسکریپت، شما جاوااسکریپت را خواهید آموخت که یکی از محبوب‌ترین و پراستفاده‌ترین زبان‌ها در تاریخ بشر است. جاوااسکریپت برای افزودن تعامل به وب‌سایت‌ها، توسعه اپلیکیشن‌های موبایل و دسکتاپ و بازی‌ها مورد استفاده قرار می‌گیرد و اخیرا جاوااسکریپت می‌تواند در هوش‌مصنوعی و یادگیری‌ماشین به کار رود.
-جاوااسکریپت محبوبیت خود را در سال‌های گذشته افزایش داده و برای ششمین سال متوالی در گیت‌هاب به عنوان پراستفاده‌ترین زبان معرفی شده است.
 
 ## Requirements
 
@@ -135,22 +128,11 @@ No prior knowledge of programming is required to follow this challenge. You need
 4. A browser
 5. A code editor
 
-## نیازمندی‌ها
-برای دنبال کردن این چالش شما به دانش پیشینی نیاز ندارید. شما به موارد زیر نیاز دارید:
-1. انگیزه
-2. یک کامپیوتر
-3. اینترنت
-4. یک مرورگر
-5. یک ویرایش‌گر متن
-
 
 
 ## Setup
 
 I believe you have the motivation and a strong desire to be a developer, a computer and Internet. If you have those, then you have everything to get started.
-
-## آماده‌سازی
-من معتقدم که شما انگیزه و میل قوی برای توسعه‌دهند شدن، یک کامپیوتر و اینترنت را دارید. اگر این‌ها را دارید، آن‌گاه بیایید کار را آغاز کنیم:
 
 ### Install Node.js
 
@@ -170,30 +152,18 @@ v12.14.0
 ```
 
 When making this tutorial I was using Node version 12.14.0, but now the recommended version of Node.js for download is v14.17.6.
-
-### نصب Node.js
-شما در اوایل کار ممکن است احتیاجی به Node.js نداشته باشید ولی در ادامه به آن نیاز خواهید داشت. نصب [node.js](https://nodejs.org/en/) 
-توجه کنید که بهتر است نسخه LTS را دانلود کنید.
-
-بعد از دانلود آن را نصب کنید.
-
-ما می‌توانیم با دستور زیر در ترمینال یا خط فرمان سیستم خود از نصب بودن node مطمئن شویم.
+.
 
 ### Browser
 
 There are many browsers out there. However, I strongly recommend Google Chrome.
-
-### مرورگر
-مرورگرهای زیادی وجود دارند. با این وجود من به شدت گوگل کروم را پیشنهاد می‌کنم.
 
 #### Installing Google Chrome
 
 Install [Google Chrome](https://www.google.com/chrome/) if you do not have one yet. We can write small JavaScript code on the browser console, but we do not use the browser console to develop applications.
 
 ![Google Chrome](images/google_chrome.png)
-
-#### نصب گوگل کروم
-اگر گوگل کروم را بر روی سیستم خود نصب نکرده‌اید آن را نصب کنید. ما می‌توانیم کد جاوااسکریپت را روی کنسول مروگر بنویسیم، اما ما نمی‌توانیم از کنسول مرورگر برای توسعه اپلیکیشن بهره ببریم.
+.
 
 #### Opening Google Chrome Console
 
@@ -218,11 +188,6 @@ Let us write a JavaScript code on the Google Chrome console:
 
 ![write code on console](./images/js_code_on_chrome_console.png)
 
-#### باز کردن کنسول گوگل کروم
-شما می‌توانید کنسول گوگل کروم را از قسمت سه‎نقطه در گوشه بالا سمت راست مروگر و انتخاب _More tools -> Developer tools_ و یا با استفاده از میانبر صفحه‎کلید باز کنید. من استفاده از میانبر را ترجیح می‌دهم.
-
-
-برای باز کردن کروم با استفاده از میانبر صفحه‌کلید از کلید‌های ترکیبی زیر استفاده کنید:
 
 
 #### Writing Code on Browser Console
@@ -237,9 +202,6 @@ Windows:
 Ctl+Shift+I
 ```
 
-#### نوشتن کد روی کنسول مرورگر
-ما می‌توانیم هر کد جاوا اسکریپت را بر روی کنسول کروم یا هر مرورگر دیگری بنویسیم. هر چند، برای این چالش ما فقط برای کنسول گوگل کروم تمرکز می‌کنیم. کنسول را با استفاده از کلید‌های ترکیبی زیر باز کنید:
-
 
 ##### Console.log
 
@@ -249,9 +211,6 @@ To write our first JavaScript code, we used a built-in function **console.log()*
 console.log('Hello, World!')
 ```
 
-##### دستور console.log
-
-برای نوشتن اولین کد جاوااسکریپت، ما از تابع **console.log()** استفاده می‌کنیم. ما یک آرگومان را به عنوان داده ورودی به این تابع وارد می‌کنیم و تابع آن را در خروجی نمایش می‎دهد. ما عبارت 'Hello, World' را به عنوان داده ورودی یا همان آرگومان به تابع console.log() می‌دهیم.
 
 
 
@@ -271,8 +230,6 @@ As you can see from the snippet code above, _console.log()_ can take multiple ar
 
 Congratulations! You wrote your first JavaScript code using _console.log()_.
 
-#### دستور console.log با چند آرگومان
-تابع console.log() می‌تواند چند پارامتر دریافت کند که با کاما از یکدیگر جدا شده‌اند به این شیوه: **console.log(param1, param2, param3)**
 
 ```js
 console.log('Hello', 'World', '!')
@@ -280,16 +237,11 @@ console.log('HAPPY', 'NEW', 'YEAR', 2020)
 console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
 ```
 
-همانطور که مشاهده می‌کنید تابع console.log() می‌تواند چند آرگومان داشته باشد.
-تبریک شما اولین کد جاوااسکریپت خود را با استفاده از console.log() نوشتید.
-
 
 ##### Comments
 
 We add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code.In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this /\* \*/ is also a comment.
 
-#### کامنت
-ما به کد خود کامنت را اضافه می‌کنیم. کامنت به معنی توضیح است. کامنت‌ها برای خواناتر کردن کد بسیار اهمیت دارند. جاوااسکریپت قسمت‌های مربوط به کامنت را اجرا نمی‌کند. در جاوااسکریپت، هر خطی که با // شروع شود و هر چیزی که در میان دو علامت /\* و \*/ قرار گیرد، کامنت محسوب می‌شود.
 
 **Example: Single Line Comment**
 
@@ -297,7 +249,7 @@ We add comments to our code. Comments are very important to make code more reada
  // This is the second comment  
  // I am a single line comment
 
-مثال: کامنت تک خطی
+
 
 **Example: Multiline Comment**
 
@@ -307,16 +259,12 @@ This is a multiline comment
  JavaScript is the language of the web  
  */
  
- مثال: کامنت چند خطی
-
 ##### Syntax
 
 Programming languages are similar to human languages. English or many other language uses words, phrases, sentences,compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language.Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
 
 ![Error](images/raising_syntax_error.png)
-
-#### دستور زبان
-زبان‌های برنامه‌نویسی شبیه زبان‌های مرسوم در بین انسان‌ها هستند. انگلیسی یا فارسی یا زبان‌های دیگر از کلمات، عبارات، جملات و دیگر ساختارهای زبانی برای انتقال یک پیام معنی‌دار استفاده می‌کنند. معنی فارسی دستور زبان این است: ترتیب کلمات و عبارات برای ایجاد جملات درست در زبان. تعریف تکنیکی مفهوم دستور زبان یا سینتکس، ساختار عبارات در یک زبان کامپیوتری است. 
+. 
 
 I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
 
